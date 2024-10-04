@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    color: #2D3748;
+    font-size: 18px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 20px;
+}
+
+header {
+    grid-column: 1 / -1;
+    background-color: #63B3ED;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+}
+
+main {
+    grid-column: 1 / 2;
+}
+
+aside {
+    grid-column: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 32px;
+    color: #48BB78;
+}
+
+.post-info {
+    color: #718096;
+}
+
+.post-image {
+    float: right; /* Adjust to left if needed */
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    margin-left: 20px;
+}
+
+.about {
+    background-color: #E2E8F0;
+    padding: 10px;
+}
+
+.social-media h3,
+.archives h3 {
+    color: #48BB78;
+}
+
+.about h3 {
+    color: #000000;
+}
+
+a {
+    color: #4299E1;
+    text-decoration: none;
+}
+
+footer {
+    grid-column: 1 / -1;
+    background-color: #2C5282;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+}
