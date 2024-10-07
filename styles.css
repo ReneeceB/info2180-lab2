@@ -28,10 +28,13 @@ header h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.profile-image {
-    border-radius: 50%;
-    width: 100px; /* Adjust size as needed */
-    height: 100px; /* Adjust size as needed */
+.profile-pic {
+    width: 100px; /* Adjusted width */
+    height: 100px; /* Ensuring it's square */
+    object-fit: cover; /* Ensures the image is cropped correctly */
+    border-radius: 50%; /* Makes the image circular */
+    display: block;
+    margin: 0 auto; /* Centers the image horizontally */
 }
 
 main {
@@ -92,12 +95,3 @@ footer {
     padding: 10px;
 }
 
-
-.profile-pic {
-    width: 200px;
-    height: 150px;
-    object-fit: cover; 
-    border-radius: 50%; 
-    display: block;
-    margin: 0 auto; 
-}
