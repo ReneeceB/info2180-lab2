@@ -57,6 +57,18 @@ h2 {
     color: #48BB78;
 }
 
+.blog-image-right{
+    float: left;
+    margin: 15px 0;
+    width: 200px;
+    height: auto;
+}
+.blog-image-right{
+    float:right;
+    margin: 15px;
+    width: 200px;
+    height: auto;
+}
 .post-info {
     color: #718096;
 }
