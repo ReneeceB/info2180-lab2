@@ -91,3 +91,13 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+
+.profile-pic {
+    width: 200px;
+    height: 150px;
+    object-fit: cover; 
+    border-radius: 50%; 
+    display: block;
+    margin: 0 auto; 
+}
