@@ -36,6 +36,11 @@ header h1 {
     display: block;
     margin: 0 auto; /* Centers the image horizontally */
 }
+
+main {
+    grid-column: 1 / 2;
+}
+
 .blog-image-left {
     float: left;
     margin: 15px 0;
@@ -49,10 +54,6 @@ header h1 {
     width: 200px;
     height: auto;
 }
-main {
-    grid-column: 1 / 2;
-}
-
 aside {
     grid-column: 2 / 3;
     display: flex;
