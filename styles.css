@@ -66,13 +66,12 @@ aside {
 article {
     margin-bottom: 20px;
     padding-bottom: 20px; 
-}
-
-article:not(:last-of-type) {
     border-bottom: 1px solid #000000; 
 }
 
-
+article p {
+    margin-bottom: 20px; 
+}
 
 h2 {
     font-size: 32px;
