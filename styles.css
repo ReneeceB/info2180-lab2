@@ -29,16 +29,17 @@ header h1 {
 }
 
 .profile-pic {
-    width: 100px; /* Adjusted width */
-    height: 100px; /* Ensuring it's square */
-    object-fit: cover; /* Ensures the image is cropped correctly */
-    border-radius: 50%; /* Makes the image circular */
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
     display: block;
-    margin: 0 auto; /* Centers the image horizontally */
+    margin: 0 auto;
 }
 
 main {
     grid-column: 1 / 2;
+    padding: 20px;
 }
 
 aside {
@@ -57,27 +58,22 @@ h2 {
     color: #48BB78;
 }
 
-.blog-image-left{
+.blog-image-left {
     float: left;
     margin: 15px 0;
     width: 200px;
     height: auto;
 }
-.blog-image-right{
-    float:right;
+
+.blog-image-right {
+    float: right;
     margin: 15px;
     width: 200px;
     height: auto;
 }
+
 .post-info {
     color: #718096;
-}
-
-.post-image {
-    float: right; /* Adjust to left if needed */
-    width: 150px; /* Adjust size as needed */
-    height: auto;
-    margin-left: 20px;
 }
 
 .about {
@@ -106,4 +102,3 @@ footer {
     text-align: center;
     padding: 10px;
 }
-
