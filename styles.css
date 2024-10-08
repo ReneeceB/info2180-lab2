@@ -64,14 +64,17 @@ aside {
 }
 
 article {
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
     padding-bottom: 20px; 
     border-bottom: 1px solid #000000; 
 }
 
+
+article h2, 
 article p {
-    margin-bottom: 20px; 
+    margin: 0; 
 }
+
 
 h2 {
     font-size: 32px;
