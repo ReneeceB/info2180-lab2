@@ -65,6 +65,13 @@ aside {
 
 article {
     margin-bottom: 20px;
+    padding-bottom: 20px; 
+    border-bottom: 1px solid #000000; 
+}
+
+article h2, 
+article p {
+    margin: 0; 
 }
 
 h2 {
@@ -80,11 +87,6 @@ h2 {
     background-color: #E2E8F0;
     padding: 20px;
     border-radius: 5px;
-}
-article {
-    margin-bottom: 20px; 
-    padding-bottom: 20px; 
-    border-bottom: 1px solid #E2E8F0; 
 }
 
 
