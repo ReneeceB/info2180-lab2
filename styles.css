@@ -64,7 +64,7 @@ aside {
 }
 
 article {
-    margin-bottom: 20px; 
+    margin-bottom: 40px; 
     padding-bottom: 20px; 
     border-bottom: 1px solid #000000; 
 }
@@ -73,7 +73,7 @@ article {
 
 article p {
     margin: 0; 
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 
