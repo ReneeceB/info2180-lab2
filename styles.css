@@ -75,10 +75,6 @@ article p {
     margin: 0; 
 }
 
-article:not(:last-child) {
-    border-bottom: 1px solid #000000; 
-}
-
 h2 {
     font-size: 32px;
     color: #48BB78;
