@@ -60,7 +60,7 @@ h2 {
 
 .blog-image-left {
     float: left;
-    margin: 15px 0;
+    margin: 15px;
     width: 200px;
     height: auto;
 }
