@@ -69,10 +69,6 @@ article {
     border-bottom: 1px solid #000000; 
 }
 
-article h2, 
-article p {
-    margin: 0; 
-}
 
 h2 {
     font-size: 32px;
