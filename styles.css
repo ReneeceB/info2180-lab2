@@ -29,18 +29,13 @@ header h1 {
 }
 
 .profile-pic {
-    width: 100px; /* Adjusted size */
-    height: 100px; /* Adjusted size */
-    object-fit: cover; /* Ensures the image is cropped correctly */
-    border-radius: 50%; /* Makes the image circular */
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover; 
+    border-radius: 50%; 
     display: block;
-    margin: 0 auto; /* Centers the image horizontally */
+    margin: 0 auto; 
 }
-
-main {
-    grid-column: 1 / 2;
-}
-
 .blog-image-left {
     float: left;
     margin: 15px 0;
@@ -54,6 +49,10 @@ main {
     width: 200px;
     height: auto;
 }
+main {
+    grid-column: 1 / 2;
+}
+
 aside {
     grid-column: 2 / 3;
     display: flex;
